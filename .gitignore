@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Logs
+logs/
+*.log
+
+# Memory — runtime-only (all agent-written memory is ephemeral, not tracked in git)
+# Sessions and ticker notes are written every run
+memory/sessions/*.md
+memory/tickers/*.md
+# Self-improvement analysis data (fully runtime)
+memory/self_improvement/
+
+# Env / secrets
+.env
+.env.*
+*.env
+config/settings_local.py
+
+# AI agent guidance
+CLAUDE.md
+
+# Virtual envs (if someone inits one locally inside this folder)
+.venv/
+venv/
+reports/
+memory/portfolio/AGENTS.md
+memory/trading_plan/AGENTS.md
